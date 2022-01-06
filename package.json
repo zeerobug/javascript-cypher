@@ -1,0 +1,29 @@
+{
+  "name": "javascript-cypher",
+  "version": "1.0.0",
+  "description": "A collection of utilities to handle graph databases in cypher language from javascript, typically for API calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeerobug/javascript-cypher.git"
+  },
+  "keywords": [
+    "Javascript",
+    "cypher",
+    "neo4j",
+    "database"
+  ],
+  "author": "Thomas Vié <thomas@iteas.co> (https://iteas.co)",
+  "license": "ISC",
+  "homepage": "https://github.com/zeerobug/javascript-cypher.git",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
